@@ -42,3 +42,15 @@ Existe uma diferença na geração da versão de acordo com a maturidade do proj
 |`feat`|`patch` (0.0.`x`)|`minor` (0.`x`.0)|
 
 Após alterar o arquivo `projenrc.ts` execute o comando **projen** para atualizar o projeto.
+
+## Habilitando o mergify
+Habilite o mergify no arquivo `projenrc.ts` alterando a configuração do `project` conforme abaixo
+```
+const project = new awscdk.AwsCdkTypeScriptApp({
+  ...
+  githubOptions: {
+    mergify: true,
+  },
+  ...
+});
+```
