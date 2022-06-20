@@ -13,6 +13,7 @@ pull_request_rules:
         - contribution/core
     conditions:
       - author~=^(marciocadev)$
+      - label!=contribution/core
   - name: Automatic merge on approval and successful build
     actions:
       delete_head_branch: {}
