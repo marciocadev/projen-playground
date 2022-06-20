@@ -16,6 +16,8 @@ export class MyStack extends Stack {
     console.log('(chore) testando alteração no versionamento na versão experimental (1.1.1 -> 1.1.2)');
 
     console.log('mergify');
+
+    console.log('docgen');
   }
 }
 
