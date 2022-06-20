@@ -6,5 +6,6 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   projenrcTs: true,
 
   release: true,
+  majorVersion: 1,
 });
 project.synth();
