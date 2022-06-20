@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
 
   release: true,
   majorVersion: 1,
-  
+
   githubOptions: {
     mergify: true,
   },
