@@ -5,7 +5,7 @@ export class MyStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps = {}) {
     super(scope, id, props);
 
-    // define resources here...
+    console.log('(feat) testando alteração no versionamento na versão experimental');
   }
 }
 
