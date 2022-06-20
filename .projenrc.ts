@@ -8,6 +8,8 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   release: true,
   majorVersion: 1,
 
+  codeCov: true,
+
   githubOptions: {
     mergify: true,
     mergifyOptions: {
