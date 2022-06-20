@@ -54,3 +54,5 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   ...
 });
 ```
+
+Com isso habilitado todo pull request de terceiros precisarão de aprovação do dono do repositório

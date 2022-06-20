@@ -10,6 +10,20 @@ const project = new awscdk.AwsCdkTypeScriptApp({
 
   githubOptions: {
     mergify: true,
+    mergifyOptions: {
+      rules: [
+        {
+          name: 'Label core contributions',
+          actions: {
+            add: ['contribution/core'],
+          },
+          conditions: [
+            'author~=^(marciocadev)$',
+            'label!=contribution/core',
+          ],
+        },
+      ],
+    },
   },
 });
 project.synth();
