@@ -8,6 +8,9 @@ export class MyStack extends Stack {
     console.log('(feat) testando alteração no versionamento na versão experimental (0.0.0 -> 0.0.1)');
     console.log('(fix) testando alteração no versionamento na versão experimental (0.0.1 -> 0.0.2)');
     console.log('(chore) testando alteração no versionamento na versão experimental (0.0.2 -> 0.0.3)');
+    
+    console.log('mudando da versão experimental para a estável');
+    
   }
 }
 
