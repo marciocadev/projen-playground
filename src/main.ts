@@ -5,7 +5,8 @@ export class MyStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps = {}) {
     super(scope, id, props);
 
-    console.log('(feat) testando alteração no versionamento na versão experimental');
+    console.log('(feat) testando alteração no versionamento na versão experimental (0.0.0 -> 0.0.1)');
+    console.log('(fix) testando alteração no versionamento na versão experimental (0.0.1 -> 0.0.2)');
   }
 }
 
